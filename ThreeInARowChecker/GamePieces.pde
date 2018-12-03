@@ -7,14 +7,14 @@ String[] onlyOPiece = new String[numberOfBoardPieces];
 // "X" or "O" or null
 void gamePieces() {
   boardPiece[0] = "X"; // First corner, left "X"
-  boardPiece[1] = "O"; // First middle "O"
-  boardPiece[2] = null; // First corner, right
+  boardPiece[1] = "X"; // First middle "O"
+  boardPiece[2] = "X"; // First corner, right
   boardPiece[3] = null; // Second corner, left
-  boardPiece[4] = "X"; // Second middle "X"
+  boardPiece[4] = null; // Second middle "X"
   boardPiece[5] = null; // Second corner, right
   boardPiece[6] = null; // Third corner, left
-  boardPiece[7] = "O"; // Third middle "O"
-  boardPiece[8] = "X"; // Third corner, right "X"
+  boardPiece[7] = null; // Third middle "O"
+  boardPiece[8] = null; // Third corner, right "X"
 
   onlyX();
   onlyO();
